@@ -100,7 +100,6 @@ angular.module('starter', ['ionic'])
       expiration_date: expDate
     }
     fbLogged.resolve(authData);
-    fbLoginSuccess = null;
     console.log(response);
   };
 
@@ -120,7 +119,6 @@ angular.module('starter', ['ionic'])
       return Parse.FacebookUtils.logIn(authData);
     })
     .then( function(userObject) {
-      var authData = userObject.get('authData');
       facebookConnectPlugin.api('/me', null, 
         function(response) {
           console.log(response);
@@ -132,26 +130,9 @@ angular.module('starter', ['ionic'])
           console.log(error);
         }
       );
-      facebookConnectPlugin.api('/me/picture', null,
-        function(response) {
-          userObject.set('profilePicture', response.data.url);
-          userObject.save();
-        }, 
-        function(error) {
-          console.log(error);
-        }
-      );
       $state.go('home');
     }, function(error) {
       console.log(error);
     });
-  };
-
-  $scope.logout = function() {
-    console.log('Logout');
-    facebookConnectPlugin.logout(
-      function (success) { console.log(success) },
-      function (failure) { console.log(failure) }
-    );
   };
 }])
