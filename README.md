@@ -1,10 +1,10 @@
 # How to Set Up Apache Cordova Facebook Plugin and Parse in Ionic Framework V2
 
-This is the sample codes demonstrating how to implement Facebook Login in an Ionic app with the official Apache Phonegap Facebook Connect Plugin, AngularJS UI Router, and Parse as the backend.
+These are the sample codes demonstrating how to implement Facebook Login in an Ionic Framework App with the official Apache Phonegap Facebook Connect Plugin, AngularJS UI Router, and Parse as the backend.
 
 To make this work, you will need to replace the followings to your own values:
 * FACEBOOK_APP_ID
-  * The dummy FACEBOOK_APP_ID "12345678901234567890" used
+  * Dummy value "12345678901234567890" was used in some cases
 * PARSE_APP_ID
 * PARSE_JAVASCRIPT_KEY
 
@@ -15,6 +15,6 @@ Full explanation is available here: http://jianjye.com/how-to-set-up-apache-cord
 
 ## Older version
 
-V1 has been completely overwritten, but is available as a commit at 26e1d797a5c86d435e04e9554a079f5134795505 shall you desire to refer back.
+V1 has been completely overwritten, but is available as at commit #[26e1d797a5c86d435e04e9554a079f5134795505](https://github.com/jjsee/facebook-connect-plugin-parse-phonegap-ionic/commit/26e1d797a5c86d435e04e9554a079f5134795505) shall you desire to refer back.
 
 
