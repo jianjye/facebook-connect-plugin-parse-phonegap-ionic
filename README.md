@@ -8,13 +8,13 @@ To make this work, you will need to replace the followings to your own values:
 * PARSE_APP_ID
 * PARSE_JAVASCRIPT_KEY
 
-Full explanation is available here: http://jianjye.com/how-to-set-up-apache-cordova-facebook-plugin-and-parse-in-ionic-framework-v2/
+Full explanation is available here: [How to Set Up Apache Cordova Facebook Plugin and Parse in Ionic Framework](https://jianjye.com/p/apache-cordova-facebook-plugin-parse-ionic/)
 
 **I highly recommend following the article step-by-step and build your app from scratch instead.**
 
 
 ## Older version
 
-V1 has been completely overwritten as it was based on Cordova 2.x and will not work without adjustments on the latest versions. It is available at commit [26e1d797a5c86d435e04e9554a079f5134795505](https://github.com/jjsee/facebook-connect-plugin-parse-phonegap-ionic/commit/26e1d797a5c86d435e04e9554a079f5134795505) if you want to refer back.
+V1 has been completely overwritten as it was based on Cordova 2.x and will not work without adjustments on the latest versions. It is available at commit [26e1d797a5c86d435e04e9554a079f5134795505](https://github.com/jianjye/facebook-connect-plugin-parse-phonegap-ionic/commit/26e1d797a5c86d435e04e9554a079f5134795505) if you want to refer back.
 
 
